@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #f1f5f8; */
+    background-color: red;
+    margin: 0;
+}
+
+nav{
+    padding: 0 300px;
+    background-color: #0091ff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    height: 10vh;
+}
+
+main,
+.nav-center,
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-center,
+.nav-links {
+    justify-content: space-between;
+}
+
+main{
+    height: 90vh;
+    justify-content: center;
+    text-align: center;
+}
+
+ul{
+   width: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
